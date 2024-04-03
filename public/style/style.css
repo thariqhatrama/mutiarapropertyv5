@@ -1,0 +1,433 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* link */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.garis_verikal {
+    border-left: 1px black solid;
+    height: 170px;
+    width: 0px;
+}
+/* navbar */
+
+.navbar {
+    z-index: 3;
+    position: relative;
+}
+
+
+
+.nav-link {
+    font-size: 16px;
+    color: white;
+}
+
+.nav-item {
+    color: white;
+}
+
+#navbarNav {
+    background-color: #092947;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* hero section */
+
+#hero {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* unit recommendation */
+
+.h2,
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* recommendation */
+
+.card {
+    background: transparent;
+    width: 265px;
+    height: 100%;
+    border: none;
+    color: #2173c0;
+    font-size: 24px;
+}
+
+.card-body {
+    background-color: transparent;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-lokasi {
+    color: #000;
+}
+
+.card-fasilitas {
+    position: inherit;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+}
+
+#deskripsi-rumah {
+    padding: 10px 0;
+}
+
+.deskripsi h2 {
+    color: #ef233c;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.deskripsi h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.deskripsi p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* fasilitas */
+
+#fasilitas-rumah {
+    padding: 10px 0;
+}
+
+#fasilitas-rumah .card {
+    color: #000;
+}
+
+/* hero bawah */
+
+.hero {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    color: #000;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 100px 0;
+}
+
+.gambar-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    width: 1440px;
+    height: 650px;
+}
+
+.color-overlay-banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.color-overlay {
+    position: relative;
+    margin-right: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(38, 130, 235, 0.2),
+        rgba(236, 229, 229, 0.5)
+    );
+}
+
+.color-overlay-fasilitas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.8
+    ); /* Optional: Adjust for your design */
+}
+
+.container-banner {
+    position: absolute;
+    width: 36vw;
+    height: 42vh; /* Atur tinggi div */
+    display: flex;
+    justify-content: end; /* Pusatkan horizontal */
+    align-items: center; /* Pusatkan vertikal */
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.9
+    ); /* Optional: for better readability */
+    border-radius: 20px;
+    right: 60px;
+    padding: 20px;
+    margin-top: 20px; /* Add space on top of the banner */
+}
+
+.info-banner {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.centered-text-box {
+    padding: 10px; /* Sesuaikan padding untuk kebutuhan desain Anda */
+}
+
+.text-banner {
+    font-size: 12px;
+}
+
+.fasilitas-text {
+    color: #92670a;
+}
+
+/* fasilitas */
+
+.img-fasilitas {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.fasilitas-item h5 {
+    text-align: center;
+    color: #92670a;
+    font-size: 15px;
+}
+
+.container-fasilitas {
+    background-size: cover;
+    min-height: 44vh;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 414px) {
+    .container-fasilitas {
+        min-height: 40vh;
+    }
+}
+
+.icon-fasilitas {
+    width: 100px;
+    height: 100px;
+}
+
+/* type rumah */
+#type-rumah {
+    color: #eaeaea;
+}
+
+.judul-type-rumah {
+    border-left: 10px solid rgb(255, 165, 0); /* Ketebalan, warna, dan gaya garis */
+    height: 80px; /* Sesuaikan tinggi garis */
+    padding: 10%;
+}
+
+.box-type {
+    background-color: #f25d1e;
+    margin-top: 8px;
+    padding-top: 10px;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.text-card p {
+    color: #eaeaea;
+}
+
+.img-carousel {
+    border-radius: 20px;
+}
+
+.centered-text-box-type {
+    padding: 10px; /* Sesuaikan padding untuk kebutuhan desain Anda */
+    color: black;
+}
+
+.container-type {
+    width: 400px;
+    height: 200px; /* Atur tinggi div */
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* artikel */
+
+#card-judul {
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    border-color: white;
+}
+
+.card-body p {
+    font-size: 12px;
+    color: black;
+}
+
+.text-card p {
+    color: #eaeaea;
+}
+
+/* pilihan terbaik */
+
+
+.card-img-pilihan {
+    width: 220px;
+    height: 150px;
+}
+
+.card-img-top-pilihan {
+    width: 350px;
+    height: 221px;
+    border-radius: 15px;
+}
+
+.card-pilihan:hover {
+    transform: scale(1.05);
+    background-color: #cac2c2;
+}
+
+
+/* lokasi-fasilitas */
+
+#lokasi-fasilitas {
+    color: white;
+}
+
+.box-fasilitas {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+#footer {
+    background-color: #252424;
+}
+
+.footer {
+    color: #fff;
+}
+
+.footer h3 {
+    font-weight: 600;
+}
+
+/* login */
+
+.login {
+    height: 100vh;
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.header p {
+    position: absolute;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #e8717f;
+}
+
+.login-form span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.login-form span a {
+    font-weight: 600;
+}
+
+.carousel-inner {
+    border-image-width: 100vh;
+}
+
+#carousel1 .carousel-control-prev,
+#carousel1 .carousel-control-next {
+    align-items: center; /* Vertically center the carousel controls */
+}
+
+#carousel1 .carousel-inner img {
+    margin: auto; /* Center the images within the carousel */
+}
+
+#carousel2 .carousel-control-prev,
+#carousel2 .carousel-control-next {
+    align-items: center; /* Vertically center the carousel controls */
+}
+
+#carousel2 .carousel-inner img {
+    margin: auto; /* Center the images within the carousel */
+}
+
+a.btn.btn-danger {
+    background-color: #dc3545;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .keunggulan {
+        min-height: 85vh;
+    }
+    .gambar-banner {
+        width: 768px;
+        height: auto;
+    }
+}
+
